@@ -13,10 +13,7 @@ $.Import("src/Image.js")
 function Main(args)
 {
 	Style.Load("src/Style/Button.css")
-	Form.BackgroundImage("jeans.jpg")
 
-	/*
-	Style.Load("src/Style/Button.css")
 	var helloWorld = Component.Button("Click Me!")
 		helloWorld.Type		("standard")
 		helloWorld.Enabled	(true)
@@ -41,5 +38,4 @@ function Main(args)
 		})
 	Stdio.Println("What?")
 	Form.ForegroundColor(Color.Silver)
-	*/
 }
