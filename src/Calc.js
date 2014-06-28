@@ -81,5 +81,22 @@ var Calc = {
 			sum += args[i];
 		}
 		return sum;
+	},
+	Product: function() {
+		var args = arguments;
+		var product = 1;
+		for (var i = 0; i < args.length; i++) {
+			product = product * args[i];
+		}
+		return product;
+	},
+	Avg: function() {
+		var args = arguments;
+		var avg = 0;
+				for (var i = 0; i < args.length; i++) {
+			avg += args[i];
+		}
+		avg = avg/args.length;
+		return avg;
 	}
 }
