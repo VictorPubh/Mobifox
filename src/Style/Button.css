@@ -1,0 +1,177 @@
+* {
+	outline: 0;
+	font-family: "Segoe UI"
+}
+
+body {
+	overflow: hidden;
+}
+
+button {
+    padding: 4px 10px;
+    padding-left: 25px;
+    box-shadow: inset 1px 1px 1px #fff;
+    height: 26px;
+    color: #fff;
+    margin: 2px;
+}
+
+button.extends {
+    background-position: 6px 4px, center !important;
+}
+
+button.next.extends {
+    background-position: right 6px top 4px, center !important;
+    padding-left: 10px;
+    padding-right: 35px;
+}
+
+button.success {
+    background-image:  url("./icons/confirm.png"), linear-gradient(to top, #27ae60, #2ecc71);
+    background-size: 16px, cover;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    border: 1px solid #27ae60;
+}
+
+button.success:hover {
+    background-image: url("./icons/confirm.png"), linear-gradient(to top, #2CC36B, #40D47E);
+}
+
+button.success:active {
+    background-image:  url("./icons/confirm.png"), linear-gradient(to bottom, #27ae60, #2ecc71);
+}
+
+button.success:disabled {
+    background-image:  url("./icons/confirm.png"), linear-gradient(to top, #bdc3c7, #ecf0f1) !important;
+    border: 1px solid #bdc3c7;
+}
+
+button.alert {
+    background-image:  url("./icons/alert.png"), linear-gradient(to top, #f39c12, #f1c40f);
+    background-size: 16px, cover;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    border: 1px solid #f39c12;
+}
+
+button.alert:hover {
+    background-image: url("./icons/alert.png"), linear-gradient(to top, #F39C12, #F2CA27);
+}
+
+button.alert:active {
+    background-image:  url("./icons/alert.png"), linear-gradient(to bottom, #f39c12, #f1c40f);
+}
+
+button.alert:disabled {
+    background-image:  url("./icons/alert.png"), linear-gradient(to top, #bdc3c7, #ecf0f1) !important;
+    border: 1px solid #bdc3c7;
+}
+
+button.error {
+    background-image:  url("./icons/error.png"), linear-gradient(to top, #c0392b, #e74c3c);
+    background-size: 16px, cover;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    border: 1px solid #c0392b;
+}
+
+button.error:hover {
+    background-image: url("./icons/error.png"), linear-gradient(to top, #D14233, #EA6153);
+}
+
+button.error:active {
+    background-image:  url("./icons/error.png"), linear-gradient(to bottom, #c0392b, #e74c3c);
+}
+
+button.error:disabled {
+    background-image:  url("./icons/error.png"), linear-gradient(to top, #bdc3c7, #ecf0f1) !important;
+    border: 1px solid #bdc3c7;
+}
+
+button.cancel {
+    background-image:  url("./icons/cancel.png"), linear-gradient(to top, #c0392b, #e74c3c);
+    background-size: 16px, cover;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    border: 1px solid #c0392b;
+}
+
+button.cancel:hover {
+    background-image: url("./icons/cancel.png"), linear-gradient(to top, #D14233, #EA6153);
+}
+
+button.cancel:active {
+    background-image:  url("./icons/cancel.png"), linear-gradient(to bottom, #c0392b, #e74c3c);
+}
+
+button.cancel:disabled {
+    background-image:  url("./icons/cancel.png"), linear-gradient(to top, #bdc3c7, #ecf0f1) !important;
+    border: 1px solid #bdc3c7;
+}
+
+button.previous {
+    background-image:  url("./icons/previous.png"), linear-gradient(to top, #2980b9, #3498db);
+    background-size: 16px, cover;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    border: 1px solid #2980b9;
+}
+
+button.previous:hover {
+    background-image: url("./icons/previous.png"), linear-gradient(to top, #2E8ECE, #4AA3DF);
+}
+
+button.previous:active {
+    background-image:  url("./icons/previous.png"), linear-gradient(to bottom, #2980b9, #3498db);
+}
+
+button.previous:disabled {
+    background-image:  url("./icons/previous.png"), linear-gradient(to top, #bdc3c7, #ecf0f1) !important;
+    border: 1px solid #bdc3c7;
+}
+
+button.next {
+    background-image:  url("./icons/next.png"), linear-gradient(to top, #2980b9, #3498db);
+    background-size: 16px, cover;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    border: 1px solid #2980b9;
+}
+
+button.next:hover {
+    background-image: url("./icons/next.png"), linear-gradient(to top, #2E8ECE, #4AA3DF);
+}
+
+button.next:active {
+    background-image:  url("./icons/next.png"), linear-gradient(to bottom, #2980b9, #3498db);
+}
+
+button.next:disabled {
+    background-image:  url("./icons/next.png"), linear-gradient(to top, #bdc3c7, #ecf0f1) !important;
+    border: 1px solid #bdc3c7;
+}
+
+button.standard {
+    background-image: linear-gradient(to top, #bdc3c7, #ecf0f1) !important;
+    padding: 4px 10px;
+    color: #333;
+    border: 1px solid #bdc3c7;
+}
+
+button.standard:active {
+    background-image: linear-gradient(to bottom, #bdc3c7, #ecf0f1) !important;
+}
+
+button.rounded {
+    border-radius: 100px !important;
+    width: 30px;
+    height: 30px;
+}
+button:focus {
+    box-shadow: inset 1px 1px 1px #FFF, 0 0 3px #2980b9;
+}
+
+button:active {
+	background-image: linear-gradient(to bottom, #bdc3c7, #ecf0f1);
+}

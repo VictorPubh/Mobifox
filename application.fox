@@ -1,0 +1,45 @@
+$.Import("src/Stdio.js")
+$.Import("src/Component.js")
+$.Import("src/Style.js")
+$.Import("src/Form.js")
+$.Import("src/Event.js")
+$.Import("src/Color.js")
+$.Import("src/Utils.js")
+$.Import("src/Go.js")
+$.Import("src/Navigate.js")
+$.Import("src/Exception.js")
+$.Import("src/Image.js")
+
+function Main(args)
+{
+	Style.Load("src/Style/Button.css")
+	Form.BackgroundImage("jeans.jpg")
+
+	/*
+	Style.Load("src/Style/Button.css")
+	var helloWorld = Component.Button("Click Me!")
+		helloWorld.Type		("standard")
+		helloWorld.Enabled	(true)
+		helloWorld.Visible	(true)
+		helloWorld.Rounded	(false)
+
+	var identifier = Component.Label("Address: ")
+	identifier.PaddingLeft	(20)
+	identifier.PaddingRight	(identifier.PaddingLeft)
+	identifier.ForeColor	(Color.White)
+	identifier.BackColor	(Color.YellowGreen)
+
+	var botaoRedondo = Component.Button()
+		botaoRedondo.Type	("success")
+
+	Form.Add(identifier.Node)
+	Form.Add(helloWorld.Node)
+
+	Event.Click(helloWorld.Node,
+		function() {
+			Form.BackgroundColor(Color.YellowGreen)
+		})
+	Stdio.Println("What?")
+	Form.ForegroundColor(Color.Silver)
+	*/
+}
