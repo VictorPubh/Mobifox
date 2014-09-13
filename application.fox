@@ -9,10 +9,13 @@ $.Import("src/Go.js")
 $.Import("src/Navigate.js")
 $.Import("src/Exception.js")
 $.Import("src/Image.js")
+$.Import("src/Charset.js")
 
-function Main(args)
-{
+function Main(args){
+
 	Style.Load("src/Style/Button.css")
+
+	Image.Load("https://assets.mozilla.org/Brands-Logos/Firefox%20OS/logo-wordmark/firefox-os_logo-wordmark_RGB-vertical.png")
 
 	var helloWorld = Component.Button("Click Me!")
 		helloWorld.Type		("standard")
@@ -38,4 +41,5 @@ function Main(args)
 		})
 	Stdio.Println("What?")
 	Form.ForegroundColor(Color.Silver)
+
 }
